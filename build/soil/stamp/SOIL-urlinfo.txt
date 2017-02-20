@@ -1,0 +1,3 @@
+repository='external project URL'
+module='http://www.lonesock.net/files/soil.zip'
+tag=''

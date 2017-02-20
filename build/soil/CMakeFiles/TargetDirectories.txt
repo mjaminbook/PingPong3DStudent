@@ -1,0 +1,4 @@
+C:/Users/mjami/Documents/code/PingPong3DStudent/build/soil/CMakeFiles/SOIL.dir
+C:/Users/mjami/Documents/code/PingPong3DStudent/build/soil/CMakeFiles/INSTALL.dir
+C:/Users/mjami/Documents/code/PingPong3DStudent/build/soil/CMakeFiles/ALL_BUILD.dir
+C:/Users/mjami/Documents/code/PingPong3DStudent/build/soil/CMakeFiles/ZERO_CHECK.dir

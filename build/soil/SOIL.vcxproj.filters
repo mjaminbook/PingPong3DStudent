@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\mjami\Documents\code\PingPong3DStudent\deps\SOIL\src\image_DXT.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mjami\Documents\code\PingPong3DStudent\deps\SOIL\src\image_helper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mjami\Documents\code\PingPong3DStudent\deps\SOIL\src\SOIL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mjami\Documents\code\PingPong3DStudent\deps\SOIL\src\stb_image_aug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\mjami\Documents\code\PingPong3DStudent\deps\SOIL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D0E46F40-A6A5-3307-B034-0534160B26FE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

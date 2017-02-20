@@ -42,6 +42,7 @@ namespace basicgraphics {
 
 		//The model for the table
 		std::unique_ptr<Box> table;
+		glm::vec3 tableNormal;
 		std::unique_ptr<Line> net;
 		
 		//model for ball

@@ -28,6 +28,7 @@ namespace basicgraphics {
 
 		tableMin = vec3(-76.25, -10, -137);
 		tableMax = vec3(76.25, 0, 137);
+		tableNormal = vec3(0, 1, 0);
 		table.reset(new Box(tableMin, tableMax, vec4(0, 1, 0, 1)));
 		net.reset(new Line(vec3(-netDisplacement, netHeight/2, 0), vec3(netDisplacement, netHeight/2, 0), vec3(0, 0, 1), netHeight/2, vec4(1, 1, 1, 1)));
 	}
@@ -98,7 +99,8 @@ namespace basicgraphics {
 		float ballTop = ballPos.y + ballRadius;
 		if (table->contains(ballBottom)) {//collision. Does not 
 			ballPos.y = tableMax.y+ballRadius;//corrects ball's position
-			ballVel = (ballVel*glm::vec3(1, -1, 1)) * 0.85f;//corrects ball's velocity. TODO: reflect across normal as opposed to simply reversing y.
+			//ballVel = (ballVel*glm::vec3(1, -1, 1)) * 0.85f;//corrects ball's velocity. TODO: reflect across normal as opposed to simply reversing y.
+			ballVel = ballVel*float(cos(radians(180))) + glm::cross(tableNormal, ballVel)*float(sin(radians(180))) + tableNormal*float((glm::dot(tableNormal, ballVel)*(1 - cos(radians(180)))));
 		}
 	}
 

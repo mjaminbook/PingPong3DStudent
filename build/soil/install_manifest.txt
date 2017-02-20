@@ -1,0 +1,14 @@
+C:/Users/mjami/Documents/code/PingPong3DStudent/build/soil/install/lib/SOIL.lib
+C:/Users/mjami/Documents/code/PingPong3DStudent/build/soil/install/include/image_DXT.c
+C:/Users/mjami/Documents/code/PingPong3DStudent/build/soil/install/include/image_DXT.h
+C:/Users/mjami/Documents/code/PingPong3DStudent/build/soil/install/include/image_helper.c
+C:/Users/mjami/Documents/code/PingPong3DStudent/build/soil/install/include/image_helper.h
+C:/Users/mjami/Documents/code/PingPong3DStudent/build/soil/install/include/original/stb_image-1.09.c
+C:/Users/mjami/Documents/code/PingPong3DStudent/build/soil/install/include/original/stb_image-1.16.c
+C:/Users/mjami/Documents/code/PingPong3DStudent/build/soil/install/include/SOIL.c
+C:/Users/mjami/Documents/code/PingPong3DStudent/build/soil/install/include/SOIL.h
+C:/Users/mjami/Documents/code/PingPong3DStudent/build/soil/install/include/stbi_DDS_aug.h
+C:/Users/mjami/Documents/code/PingPong3DStudent/build/soil/install/include/stbi_DDS_aug_c.h
+C:/Users/mjami/Documents/code/PingPong3DStudent/build/soil/install/include/stb_image_aug.c
+C:/Users/mjami/Documents/code/PingPong3DStudent/build/soil/install/include/stb_image_aug.h
+C:/Users/mjami/Documents/code/PingPong3DStudent/build/soil/install/include/test_SOIL.cpp
